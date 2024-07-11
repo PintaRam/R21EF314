@@ -3,9 +3,11 @@ import ProductCard from './ProductCard';
 
 const ProductList = ({ products }) => {
   return (
-    <div className="product-list">
+    <div className="row">
       {products.map((product, index) => (
-        <ProductCard key={index} product={product} />
+        <div className="col-md-4" key={index}>
+          <ProductCard product={product} />
+        </div>
       ))}
     </div>
   );

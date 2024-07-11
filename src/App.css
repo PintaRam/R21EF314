@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 20px;
 }
 
 .product-list {
@@ -9,17 +10,11 @@
 }
 
 .product-card {
-  border: 1px solid #ccc;
-  padding: 16px;
-  margin: 16px;
-  width: 200px;
-  text-align: left;
+  margin: 10px;
 }
 
-.product-card h2 {
-  font-size: 1.5em;
-}
-
-.product-card p {
-  margin: 0.5em 0;
+.filters {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
